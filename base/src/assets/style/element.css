@@ -1,0 +1,63 @@
+.el-message{
+    z-index: 3001  !important;
+    margin-left: 10px !important;
+}
+.el-upload-list{
+    display: inline-block !important;
+    margin-left: 10px !important;
+}
+.el-upload-list__item {
+    margin-top: 0 !important;
+}
+.el-button--primary:not(.back-el-button){
+    background-color: rgb(78, 105, 150) !important;
+    border: 1px solid rgb(78, 105, 150) !important;
+}
+.el-button--primary:disabled{
+  background-color: #CAD2DF !important;
+  border: 1px solid #CAD2DF !important;
+}
+.back-el-button {
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(78, 105, 150) !important;
+    color: rgb(78, 105, 150) !important;
+}
+.el-dropdown-link{
+        color: rgb(38, 68, 176) !important;
+}
+/*分页居中*/
+.el-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+/*表头不对齐*/
+.el-table th.gutter{
+    display: table-cell!important;
+}
+/*统一的按钮样式*/
+.stand-button{
+    margin-left: 0px;
+    margin-top: 10px;
+    height:30px;
+    padding-top:8px;
+    background-color: #4E6996;
+    border: none;
+}
+.stand-button-delete{
+    margin-left: 0px;
+    margin-top: 10px;
+    height:30px;
+    padding-top:8px;
+    border: none;
+}
+/*成果列表选中颜色更换*/
+ .achieve_list .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: #00a1d6;
+    font-weight: bold;
+  }
+  .achieve_list .el-radio__input.is-checked+.el-radio__label {
+    color: #00a1d6;
+    font-weight: bold;
+  }
